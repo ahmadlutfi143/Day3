@@ -2,7 +2,7 @@
   body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: grey;
+    background-color: rgb(228, 228, 228);
   }
 
   /* STYLE MENU BAR */
@@ -18,13 +18,13 @@
   nav .left-side {
     flex: 50%;
     padding-left: 90px;
-    margin-left: 105px;
+    margin-left: auto;
   }
   nav .right-side {
     flex: 50%;
     padding-right: 90px;
-    justify-content: flex-end;
-    margin-right: 105px;
+    justify-content: right;
+    margin-right: auto;
   }
   nav ul {
     list-style-type: none;
@@ -54,21 +54,23 @@
 
   /* STYLE BODY CONTENT */
   .personal {
-    border: 1px solid black;
     border-radius: 10px;
     width: 160vh;
-    height: 88vh;
+    height: auto;
     background-color: white;
     box-shadow: 0px 0px 30px rgb(79, 79, 79);
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .container-content {
-    padding: 10px;
-    width: 80%;
+    padding: 20px;
+    width: 90%;
     display: flex;
     text-align: center;
   }
@@ -103,6 +105,9 @@
     padding: 8px 25px;
     text-decoration: none;
   }
+  .container-content .right .skill .download h4 i{
+    color: black;
+  }
   .container-content .right .sosmed .box {
     width: 10%;
   	padding: 20px;
@@ -123,8 +128,8 @@
   .container-content .left .card{
     border: 1px solid black;
     width: 300px;
-    padding: 5px;
-    box-shadow: 0px 0px 30px rgb(79, 79, 79);
+    padding: 2px;
+    box-shadow: 0px 0px 5px rgb(79, 79, 79);
     border-radius: 10px;
     margin: auto;
   }
@@ -132,6 +137,16 @@
   /* STYLE CONTACT FORM */
   form {
     width: 400px;
+  }
+  .personalies {
+    width: 160vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
   form h1 {
     align-items: center;
@@ -148,6 +163,7 @@
     width: 100%;
     background-color: #f4f3f3;
     border: 1px solid #c4c4c4;
+    box-shadow: 0px 0px 1px rgb(79, 79, 79);
     padding: 8px;
     margin-top: 5px;
     border-radius: 8px;
@@ -156,6 +172,7 @@
     width: 105%;
     background-color: #f4f3f3;
     border: 1px solid #c4c4c4;
+    box-shadow: 0px 0px 1px rgb(79, 79, 79);
     padding: 8px;
     margin-top: 5px;
     border-radius: 8px;
@@ -164,6 +181,7 @@
     width: 100%;
     background-color: #f4f3f3;
     border: 1px solid #c4c4c4;
+    box-shadow: 0px 0px 1px rgb(79, 79, 79);
     padding: 8px;
     margin-top: 5px;
     border-radius: 8px;
@@ -177,6 +195,7 @@
     padding: 8px 190px;
     border-radius: 10px;
     cursor: pointer;
+    margin-left: 15px;
   }
   .btn-submit {
     display: flex;
